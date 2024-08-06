@@ -1,0 +1,32 @@
+.body {
+	background-color: darkblue;
+}
+.stopwatch {
+	width: 30%;
+	min-width: 600px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: blue;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px ;
+}
+.stopwatch h1 {
+	margin-top: 40px;
+	font-size: 64px;
+	font-weight: 300;
+}
+.buton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buton img{
+	width: 50px;
+	margin: 0 20px;
+	cursor: pointer;
+}
+.buton img:nth-child(2){
+	width: 80px;
+}
+
